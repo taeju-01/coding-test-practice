@@ -24,10 +24,9 @@ int main() {
     info info1=info();
     cout<<"user "<<info1.user2_id<<" "<<"lv "<<info1.user2_level<<endl;
 
-    info1.user2_id=user2_id;
-    info1.user2_level=user2_level;
+    info info2=info(user2_id,user2_level);
 
-    cout<<"user "<<info1.user2_id<<" "<<"lv "<<info1.user2_level<<endl;
+    cout<<"user "<<info2.user2_id<<" "<<"lv "<<info2.user2_level<<endl;
 
 
     // Please write your code here.
