@@ -20,8 +20,8 @@ class Distance{
 };
 
 bool cmp(Distance a,Distance b){
-    if(abs(a.x+a.y)!=abs(b.x+b.y))
-    return abs(a.x+a.y)<abs(b.x+b.y);
+    if(abs(a.x)+abs(a.y)!=abs(b.x)+abs(b.y))
+    return abs(a.x)+abs(a.y)<abs(b.x)+abs(b.y);
     return a.num<b.num;
 }
 
