@@ -33,7 +33,9 @@ int main() {
         cin >> name >> height >> weight;
         people[i]=Info(name,height,weight);
     }
-
+    
+    cout<<fixed;
+    cout.precision(1);
     sort(people,people+5,cmp_name);
     cout<<"name"<<endl;
     for(int i=0;i<5;i++){
